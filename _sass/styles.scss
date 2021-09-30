@@ -1,5 +1,5 @@
 // Components
-@import '_components/sidebar.scss'
+@import '_components/sidebar';
 
 // Layout
 // @import '_layout/default';
@@ -9,3 +9,9 @@
 // @import '_layout/contact';
 // @import '_layout/home';
 // @import '_layout/links';
+
+// Global
+@import '_global/base';
+@import '_global/fonts';
+@import '_global/mixin';
+@import '_global/variables';
