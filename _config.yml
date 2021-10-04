@@ -30,10 +30,21 @@ twitter_username: jekyllrb
 github_username:  sandromateo
 
 # Build settings
-theme: minima
-plugins:
+sass:
+  style: compressed
+markdown: kramdown
+gems:
   - jekyll-feed
+  - jekyll-babel
   - jekyll-seo-tag
+  - jekyll-sitemap
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      logo: ""
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -49,7 +60,7 @@ exclude:
 #   - gemfiles/
 - Gemfile
 - Gemfile.lock
-- node_modules/
+- node_modules
 - vendor
 #   - vendor/cache/
 #   - vendor/gems/

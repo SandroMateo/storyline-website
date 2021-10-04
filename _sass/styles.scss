@@ -1,3 +1,11 @@
+// Global
+@import '_global/mixin';
+@import '_global/variables';
+@import '_global/base';
+@import '_global/fonts';
+
+
+
 // Components
 @import '_components/sidebar';
 
@@ -9,9 +17,3 @@
 // @import '_layout/contact';
 // @import '_layout/home';
 // @import '_layout/links';
-
-// Global
-@import '_global/base';
-@import '_global/fonts';
-@import '_global/mixin';
-@import '_global/variables';
