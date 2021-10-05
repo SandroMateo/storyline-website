@@ -8,9 +8,10 @@
 
 // Components
 @import '_components/sidebar';
+@import '_components/banner';
 
-// Layout
-// @import '_layout/default';
+//Layout
+@import '_layout/home';
 // @import '_layout/about';
 // @import '_layout/articles';
 // @import '_layout/courses';

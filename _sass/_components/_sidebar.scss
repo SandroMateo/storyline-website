@@ -5,14 +5,14 @@
 
 
 	background-position: center;
-  background-color: green;
+  background-color: #7AD376;
 	color: purple;
 	height: 100%;
 	left: 0;
 	position: fixed;
-	text-align: right;
+	text-align: center;
 	top: 0;
-	width: 15rem;
+	width: 12rem;
   z-index: 998;
 }
 
@@ -31,39 +31,44 @@
 
 .sidebar__nav-wrapper {
 	margin-bottom: 0;
-	margin-top: 0rem;
+	margin-top: 1rem;
 	list-style-type: none;
 }
 
 .sidebar__nav-link {
 	border: 0;
 	color: purple;
+  font-style: italic;
 	display: block;
 	outline: 0;
 	padding: 0rem 1rem 0rem 1rem;
 	text-decoration: none;
 
 	&:hover, &:active, &:focus {
-		color: darkgreen;
+		color: $gold;
 	}
 }
 
 .sidebar__nav-item {
 	display: block;
-	font-size: 1.75rem;
-	position: relative;
+	font-size: 1rem;
+	// position: relative;
+  padding-right: 2rem;
+  text-align: center;
 }
 
 .sidebar__nav-hr {
 	// color: $black;
 	padding: 0rem 1rem 0rem 1rem;
+  padding-right: 3rem;
 }
 
 .sidebar__business-info-wrapper {
 	bottom: 0;
-	// color: $black;
+	color: $black;
 	display: block;
-	font-size: 1rem;
+  text-align: center;
+	font-size: 0.75rem;
 	margin-top: 1rem;
 	padding: 1rem 1rem 0rem 1rem;
 	right: 0;
